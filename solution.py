@@ -29,11 +29,6 @@ def layout(gridLayout):
     print(storeNumOut,end='');
     storeNumOut += 1;
   
-    """
-     * Checks if the tile is True or False: by default all tiles are False
-     * (Note: This allows the next board that is printed to have the "-" and
-     * "x" in the spot that is a hit or miss from the previous attempt)
-     """
     for c in range(len(gridLayout[r])):
       # if statement that marks "-" if tile False and "x" if tile is True
       # (Note: Tiles that are True are the tiles that have ships on them)
